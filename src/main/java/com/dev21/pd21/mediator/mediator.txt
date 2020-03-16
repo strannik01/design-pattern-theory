@@ -1,0 +1,6 @@
+Concepto
+--------
+Un mediator asume responsabilidad de controlar y coordinar las interacciones de un grupo específico de objetos que no pueden referirse explícitamente entre sí. 
+Entonces, puedes imaginar a un mediador como un intermediario a través del cual estos objetos se comunican entre sí. 
+Este tipo de implementación ayuda a reducir el número de interconexiones entre diferentes objetos.
+Como resultado, puede promover un acoplamiento flojo en el sistema.
