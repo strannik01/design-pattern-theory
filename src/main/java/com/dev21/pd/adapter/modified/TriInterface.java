@@ -2,7 +2,8 @@ package com.dev21.pd.adapter.modified;
 
 public interface TriInterface {
 
-	void aboutTriangle();
+//	void aboutTriangle();
 	double calculateAreaOfTriangle();
+	void aboutMe();
 	
 }

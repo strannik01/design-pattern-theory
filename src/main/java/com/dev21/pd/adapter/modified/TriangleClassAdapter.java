@@ -8,12 +8,12 @@ public class TriangleClassAdapter extends Triangle implements RectInterface {
 
 	@Override
 	public void aboutRectangle() {
-		aboutTriangle();
+		aboutMe();
 	}
 
 	@Override
 	public double calculateAreaOfRectangle() {
 		return calculateAreaOfTriangle();
 	}
-
+	
 }

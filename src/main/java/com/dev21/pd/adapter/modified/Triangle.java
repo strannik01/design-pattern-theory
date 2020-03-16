@@ -10,14 +10,20 @@ public class Triangle implements TriInterface {
 		this.height = height;
 	}
 
-	@Override
-	public void aboutTriangle() {
-		System.out.println("Triangle object with base: "+ this.base +" unit and height :" +this.height+ " unit.");
-	}
+//	@Override
+//	public void aboutTriangle() {
+//		System.out.println("Triangle object with base: "+ this.base +" unit and height :" +this.height+ " unit.");
+//	}
 
 	@Override
 	public double calculateAreaOfTriangle() {
 		return 0.5 * base * height;
+	}
+
+	@Override
+	public void aboutMe() {
+		System.out.println("Hello");
+		
 	}
 
 }

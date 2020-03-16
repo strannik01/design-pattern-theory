@@ -10,7 +10,7 @@ public class TriangleAdapter implements RectInterface {
 
 	@Override
 	public void aboutRectangle() {
-		triangle.aboutTriangle();
+		triangle.aboutMe();
 	}
 
 	@Override
