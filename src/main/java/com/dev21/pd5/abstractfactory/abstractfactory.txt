@@ -1,0 +1,6 @@
+Concepto.
+--------
+Es un patrón creacional usado para fabricar familias de objetos.
+Proporciona una interfaz para crear familias de objetos sin especificar clases concretas.
+Es básicamente una fábrica de fábricas, proporciona un nivel de abstracción más alto que Factory Method.
+Ayuda a cambiar implementaciones específicas sin cambiar el código que las usa, incluso en tiempo de ejecución.

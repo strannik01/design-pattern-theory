@@ -1,0 +1,6 @@
+Concepto
+---------
+Convierta la interfaz de una clase en otra interfaz que los clientes esperan.
+
+Ejemplo
+-------

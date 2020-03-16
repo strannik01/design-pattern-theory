@@ -1,0 +1,14 @@
+Concepto
+--------
+Este patrón permite crear objetos complejos que tienen múltiples partes.
+El mecanismo de creación de un objeto debe ser independiente de estas partes.
+El mismo proceso de construcción debe permitirnos crear diferentes representaciones de los objetos.
+
+Ejemplo
+--------
+Para completar un pedido de una computadora, se ensamblan diferentes partes según las preferencias del cliente
+(por ejemplo, un cliente puede optar por un disco duro de 500 GB con un procesador Intel, y otro cliente puede elegir un disco duro de 250 GB con un procesador AMD). 
+Considere otro ejemplo. 
+Suponga que tiene la intención de realizar un recorrido con una compañía de viajes que ofrece varios paquetes para el mismo recorrido 
+(por ejemplo, pueden proporcionar arreglos especiales, un tipo diferente de vehículo para hacer turismo, etc.) Puede elegir su paquete según su presupuesto.
+ 

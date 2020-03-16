@@ -1,0 +1,10 @@
+Concepto
+--------
+Define una interfaz para crear un objeto pero permite que las subclases decidan qué clase instanciar.
+
+Aplicación 
+----------
+Desea conectarse a dos o más bases de datos.
+Entonces para insertar un dato se debe establecer la conexión.
+Usar un if-else (o switch) posiblemente deba repetir código.
+Esto no es fácil de mantener.

@@ -1,0 +1,12 @@
+Concepto
+--------
+Es un patrón de estructural que dice que la clase debe estar cerrada a modificaciones pero abierta a extensiones.
+Es decir, se puede agregar una nueva funcionalidad sin perturbar las funcionalidades existentes.
+En este patrón usamos el concepto de composición en lugar de herencia.
+
+Ejemplo
+-------
+Suponiendo que en un kit de herramientas de GUI queremos añadir algunas propiedades de borde. Podemos hacer esto con herencia, pero no puede tratarse de una 
+solución definitiva ya que el usuario va ha tener el control de la creación en todo momento. Como vemos hacer esto mediante herencia haría que la solución se estática.
+Los decoradores entran en acción proporcionando una opción flexible y dinámica para la creación 
+ 

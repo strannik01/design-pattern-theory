@@ -1,0 +1,7 @@
+Concepto
+--------
+Crear un nueva instancia desde cero es una operación muy costosa.
+Usando este patrón puede clonar la instancia existente. Esto ahorra tiempo y dinero.
+
+Suponiendo que tiene una aplicación muy estable, pero en el futuro un cliente desea una aplicación similar solo que con algunas pequeñas modificaciones.
+Sería muy costoso crear una nueva aplicación. Mejor sería clonar la que ya existe y añadir las modificaciones sobre esta nueva instancia creada.
