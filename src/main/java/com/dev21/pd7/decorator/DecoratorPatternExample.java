@@ -1,4 +1,4 @@
-package com.dev21.pd.decorator;
+package com.dev21.pd7.decorator;
 
 public class DecoratorPatternExample {
 

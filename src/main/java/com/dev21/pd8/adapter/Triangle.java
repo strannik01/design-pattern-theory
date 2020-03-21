@@ -1,4 +1,4 @@
-package com.dev21.pd.adapter;
+package com.dev21.pd8.adapter;
 
 public class Triangle {
 	

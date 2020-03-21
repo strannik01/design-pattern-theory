@@ -1,4 +1,4 @@
-package com.dev21.pd.adapter.modified;
+package com.dev21.pd8.adapter.modified;
 
 public class TriangleClassAdapter extends Triangle implements RectInterface {
 
