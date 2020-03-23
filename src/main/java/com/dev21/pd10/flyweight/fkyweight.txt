@@ -1,0 +1,10 @@
+Concepto
+------------
+Un flyweight es un objeto que se puede usar en multiples contextos simultaneamente.
+Cuando usarlo:
+-Cuando necesita una gran cantidad de objetos que son únicos en términos de solo unos pocos parámetros y la mayoría de la cosas
+son comunes.
+-Cuando intenta minimizar el uso de memoria compartiendo datos lo más posible con otros objetos similares.
+-En este contexto se usan términos como: extrinseco e intrínseco.
+Un estado intrínseco se almacena en los objetos flyweight. El estado extínseco no se comparten. Los objetos cliente
+mantienen el estado extrínseco y deben pasar este a un flyweight.
