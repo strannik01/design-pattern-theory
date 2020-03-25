@@ -17,10 +17,10 @@ public class FlyweightPatternExample {
 			Thread.sleep(1000);
 			// The extrinsic property color is supplied by the client code.
 			myRobot.showMe(getRandomColor());
+		}
 
-			int numOfDistinctRobots = robotFactory.totalObjectsCreated();
-			System.out.println("\n Till now, total no of distinct robot objects created: " + numOfDistinctRobots);
-
+		int numOfDistinctRobots = robotFactory.totalObjectsCreated();
+		System.out.println("\n Till now, total no of distinct robot objects created: " + numOfDistinctRobots);
 			// Here we are trying to get 5 Large type robots
 			for (int j = 0; j < 5; j++) {
 				myRobot = RobotFactory.getRobotFromFactory("large");
@@ -49,7 +49,7 @@ public class FlyweightPatternExample {
 			}
 			numOfDistinctRobots = robotFactory.totalObjectsCreated();
 			System.out.println("\n Till now, total no of distinct robot objects created: " + numOfDistinctRobots);
-		}
+		
 
 	}
 
