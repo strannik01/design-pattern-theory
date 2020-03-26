@@ -34,6 +34,7 @@ public class RobotFactory {
 			default:
 				throw new Exception(" Robot Factory can create only small,large or fixed size robots");
 			}
+			robotFactory.put(robotType,robotCategory);
 		} else {
 			System.out.print("\n \t Using existing " + robotType + " robot and coloring it");
 		}
