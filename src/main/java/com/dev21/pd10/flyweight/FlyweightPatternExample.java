@@ -21,35 +21,34 @@ public class FlyweightPatternExample {
 
 		int numOfDistinctRobots = robotFactory.totalObjectsCreated();
 		System.out.println("\n Till now, total no of distinct robot objects created: " + numOfDistinctRobots);
-			// Here we are trying to get 5 Large type robots
-			for (int j = 0; j < 5; j++) {
-				myRobot = RobotFactory.getRobotFromFactory("large");
-				/*
-				 * Not required to add sleep().But it is included to increase the probability of
-				 * getting a new random number to see the variations in the output.
-				 */
-				Thread.sleep(1000);
-				// The extrinsic property color is supplied by the client code.
-				myRobot.showMe(getRandomColor());
-			}
+		// Here we are trying to get 5 Large type robots
+		for (int j = 0; j < 5; j++) {
+			myRobot = RobotFactory.getRobotFromFactory("large");
+			/*
+			 * Not required to add sleep().But it is included to increase the probability of
+			 * getting a new random number to see the variations in the output.
+			 */
+			Thread.sleep(1000);
+			// The extrinsic property color is supplied by the client code.
+			myRobot.showMe(getRandomColor());
+		}
 
-			numOfDistinctRobots = robotFactory.totalObjectsCreated();
-			System.out.println("\n Till now, total no of distinct robot objects created: " + numOfDistinctRobots);
+		numOfDistinctRobots = robotFactory.totalObjectsCreated();
+		System.out.println("\n Till now, total no of distinct robot objects created: " + numOfDistinctRobots);
 
-			// Here we are trying to get 4 fixed sizerobots
-			for (int z = 0; z < 4; z++) {
-				myRobot = RobotFactory.getRobotFromFactory("fixed");
-				/*
-				 * Not required to add sleep().But it is included to increase the probability of
-				 * getting a new random number to see the variations in the output.
-				 */
-				Thread.sleep(1000);
-				// The extrinsic property color is supplied by the client code.
-				myRobot.showMe(getRandomColor());
-			}
-			numOfDistinctRobots = robotFactory.totalObjectsCreated();
-			System.out.println("\n Till now, total no of distinct robot objects created: " + numOfDistinctRobots);
-		
+		// Here we are trying to get 4 fixed sizerobots
+		for (int z = 0; z < 4; z++) {
+			myRobot = RobotFactory.getRobotFromFactory("fixed");
+			/*
+			 * Not required to add sleep().But it is included to increase the probability of
+			 * getting a new random number to see the variations in the output.
+			 */
+			Thread.sleep(1000);
+			// The extrinsic property color is supplied by the client code.
+			myRobot.showMe(getRandomColor());
+		}
+		numOfDistinctRobots = robotFactory.totalObjectsCreated();
+		System.out.println("\n Till now, total no of distinct robot objects created: " + numOfDistinctRobots);
 
 	}
 
